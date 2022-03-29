@@ -1,0 +1,157 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #2c3e50;
+}
+.container {
+    width: 550px;
+    height: 868px;
+    background: #23252C;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    font-family: inter, sansserif;
+    border-radius: 5px;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!! INFO !!!!!!!!!!!!!!!!!!!!!*/
+
+.info--img {
+    margin: 44px 160px;
+    width: 217px;
+    height: 217px;
+    border-radius: 100px 5px 100px 5px;
+    box-shadow: 0px 0px 1px 1px;
+    color: #2c3e50;
+}
+
+.info--img:hover {
+    color: #5093E2;
+}
+
+.info--name {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 6px;
+    color: #f5f5f5;
+}
+
+.info--job{
+    text-align: center;
+    color: #F3BF99;
+}
+
+.info--website {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.info--website > a {
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+.info--website > a:hover {
+    text-decoration: underline;
+}
+
+.info--buttons {
+    margin: 20px;
+    padding: 9px 13px 9px 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.info--email {
+    width: 115px;
+    height: 34px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 5px;
+    
+}
+
+.info--email > a {
+    color: #374151;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.info--email > i {
+    color: #1E1F26;
+}
+
+.info--linkedin {
+    width: 115px;
+    height: 34px;
+    border: none;
+    border-radius: 6px;
+    background: #5093E2;
+}
+
+.info--linkedin > a {
+    color: #ffff;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.info--linkedin > i {
+    color: #ffff;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!! ABOUT !!!!!!!!!!!!!!!!!!!!! */
+
+.about--title {
+    text-align: center;
+    color: #f5f5f5;
+    margin-bottom: 5px;
+}
+
+.about--about {
+    text-align: left;
+    color: #DCDCDC;
+    padding: 0px 35px;
+    margin-bottom: 50px;
+}
+
+/* !!!!!!!!!!!!!!!!!!! Interests !!!!!!!!!!!!!!!!!!! */
+
+.interests--title {
+    text-align: center;
+    color: #f5f5f5;
+    margin-bottom: 5px;
+}
+
+.interests--interests {
+    text-align: left;
+    color: #DCDCDC;
+    padding: 0px 35px;
+}
+
+/* !!!!!!!!!!!!!!!!!!! Footer !!!!!!!!!!!!!!!!!!! */
+
+.footer {
+    background: #161619;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > button {
+    color: #F3BF99;
+    background: #161619;
+    border: none;
+    font-size: 50px;  
+}
+.footer > button > a {
+    color: #2c3e50;
+    margin: 20px;
+}
