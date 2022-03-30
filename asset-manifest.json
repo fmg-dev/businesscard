@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/businesscard.github.io/static/css/main.f63c5d74.css",
-    "main.js": "/businesscard.github.io/static/js/main.1d26122a.js",
-    "static/media/me.jpg": "/businesscard.github.io/static/media/me.7a321e2dddc8f14ad005.jpg",
-    "index.html": "/businesscard.github.io/index.html",
-    "main.f63c5d74.css.map": "/businesscard.github.io/static/css/main.f63c5d74.css.map",
-    "main.1d26122a.js.map": "/businesscard.github.io/static/js/main.1d26122a.js.map"
+    "main.css": "/businesscard/static/css/main.f63c5d74.css",
+    "main.js": "/businesscard/static/js/main.27fcc76f.js",
+    "static/media/me.jpg": "/businesscard/static/media/me.7a321e2dddc8f14ad005.jpg",
+    "index.html": "/businesscard/index.html",
+    "main.f63c5d74.css.map": "/businesscard/static/css/main.f63c5d74.css.map",
+    "main.27fcc76f.js.map": "/businesscard/static/js/main.27fcc76f.js.map"
   },
   "entrypoints": [
     "static/css/main.f63c5d74.css",
-    "static/js/main.1d26122a.js"
+    "static/js/main.27fcc76f.js"
   ]
 }
