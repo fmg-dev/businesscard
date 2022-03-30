@@ -1,5 +1,5 @@
 {
-  "homepage": "https://fmg-dev.github.io/business-card/",
+  "homepage": "https://fmg-dev.github.io/businesscard",
   "name": "business-card",
   "version": "0.1.0",
   "private": true,
@@ -22,8 +22,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
@@ -39,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "eslint-plugin-jest": "^26.1.3",
     "gh-pages": "^3.2.3"
   }
 }
